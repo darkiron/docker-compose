@@ -1,4 +1,12 @@
-www2
+Docker-compose
 ====
 
-A Symfony project created on November 29, 2017, 5:51 pm.
+use :
+   `docker-compose up`
+   
+ the main folder (`.`) folder is `/code` 
+
+### Memory cheat
+
+console access :
+`docker-compose exec php /bin/sh`
