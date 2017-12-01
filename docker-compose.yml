@@ -26,9 +26,9 @@ services:
             - db_data:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_USER: motul
-            MYSQL_PASSWORD: motul
-            MYSQL_DATABASE: motul
+            MYSQL_USER: symfony
+            MYSQL_PASSWORD: symfony
+            MYSQL_DATABASE: symfony
 
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
